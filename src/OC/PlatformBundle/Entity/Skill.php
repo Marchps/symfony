@@ -5,12 +5,12 @@ namespace OC\PlatformBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Category
+ * Skill
  *
- * @ORM\Table(name="oc_category")
- * @ORM\Entity(repositoryClass="OC\PlatformBundle\Repository\CategoryRepository")
+ * @ORM\Table(name="oc_skill")
+ * @ORM\Entity(repositoryClass="OC\PlatformBundle\Repository\SkillRepository")
  */
-class Category
+class Skill
 {
     /**
      * @var int
@@ -44,7 +44,7 @@ class Category
      *
      * @param string $name
      *
-     * @return Category
+     * @return Skill
      */
     public function setName($name)
     {
